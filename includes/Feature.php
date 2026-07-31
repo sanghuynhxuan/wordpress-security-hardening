@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WordpressSecurityHardening;
 if (! defined('ABSPATH')) { exit; }
-final class WordpressSecurityHardeningFeature {
+final class Feature {
     private const OPTION = 'wordpress_security_hardening_enabled';
     private const SLUG = 'wordpress-security-hardening';
     private const TITLE = 'WordPress Security Hardening';
